@@ -4,7 +4,7 @@ from torch.autograd.variable import Variable
 from torchvision import transforms, datasets
 from utils import Logger
 
-# https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f
+
 
 def mnist_data():
     compose = transforms.Compose(
